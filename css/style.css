@@ -1,0 +1,70 @@
+/*
+-   website 2 "trade fair"
+-   CopyRight By Mayank
+-   Designed & Developed By Mayank
+-   CSS : css/style
+*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/*
+    [ google font ] 'Quicksand', sans-serif
+*/
+@import "header.css";
+@import "footer.css";
+@import "index.css";
+@import "objective.css";
+@import "about.css";
+@import "contact.css";
+@import "signin.css";
+@import "response.css";
+/*  */
+*
+{
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    color: #1e272e;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+:root
+{
+    --light:#ecf0f1;
+    --white:#ffffff;
+    --dred:#d63031;
+    --red:#c20202;
+    --lred:#ff7675;
+    --black:#1e272e;
+    --dark:#7f8fa6;
+    --yellow:#feca57;
+    --text:'Quicksand', sans-serif;
+}
+::placeholder
+{
+    color:var(--dark);
+}
+/*
+    MAIN CSS --------------------------------------------
+*/
+body
+{
+    scroll-behavior: smooth;
+    overflow: hidden;
+    overflow-y:scroll;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    background: var(--light);
+}
+::-webkit-scrollbar-thumb
+{
+    background: var(--dark);
+    border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background: var(--lred);
+}

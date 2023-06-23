@@ -1,0 +1,61 @@
+/*
+-   website 2 "trade fair"
+-   CopyRight By Mayank
+-   Designed & Developed By Mayank
+-   CSS : css/index
+*/
+main
+{
+    height: auto;
+    display: grid;
+}
+
+/*
+    HOME CSS --------------------------------------------
+*/
+#home
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: var(--light) url('../data/pic/bg.jpg');
+    background-size:cover;
+    background-blend-mode:overlay;
+}
+#home .col:first-child
+{
+    padding: 20% 2rem 20% 5rem;
+}
+#title
+{
+    font:4rem var(--text);
+}
+h1
+{
+    padding: 2rem 0;
+    word-wrap: 5px;
+    font:2rem var(--text);
+}
+h2
+{
+    padding: 2rem 0;
+    word-wrap: 5px;
+    font:1.5rem var(--text);
+    color:var(--red);
+}
+.btn
+{
+    display: inline-block;
+    padding: 1rem 2rem;
+    font:1rem var(--text);
+    background:var(--yellow);
+    border-radius: 5px;
+}
+.btn:hover
+{
+    opacity: 0.5;
+}
+#map
+{
+    width: 100%;
+    height: 60vh;
+}

@@ -1,0 +1,45 @@
+/*
+-   website 2 "trade fair"
+-   CopyRight By Mayank
+-   Designed & Developed By Mayank
+-   CSS : css/objective
+*/
+/*
+    =================
+    | OBJECTIVE CSS |
+    =================
+*/
+#objective
+{
+    display: grid;
+    grid-gap:1rem;
+    grid-template-columns: repeat(4,1fr);
+    padding: 3rem;
+}
+.object
+{
+    padding: 1rem;
+}
+.obj_pic
+{
+    width: 100px;
+    height: auto;
+    padding: 1rem;
+    object-fit: fill;
+    background: var(--lred);
+    border-radius: 0 2rem 2rem 0;
+}
+.object h6
+{
+    padding: 1rem 0;
+    font: 1.2rem var(--text);
+    text-align: right;
+}
+.object h6::first-letter
+{
+    color:var(--dred);
+}
+.object p
+{
+    border-right: 1px groove var(--dark);
+}
