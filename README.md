@@ -34,7 +34,7 @@
 
 ### Home Page
 
-![Alt text](./data/TradeFair.png.png "HomePage")
+![Alt text](./data/TradeFair.png "HomePage")
 
 ### Responsive
 
