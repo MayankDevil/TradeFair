@@ -2,13 +2,13 @@
 
 - Name : "Trade Fair"
 
-- Description : "create fake Trade Fair website it task at 11 class give by teachers"
+- Description : ""
 
-- Version : 2.6
+- Version : main
 
 - Update : 23-06-2023
 
-- Status : Rest
+- Status : ACTIVE
 
 - Responsive : True
 
@@ -24,11 +24,11 @@
 
 - CopyRight : { Mayank | Bhart Indaustry }
 
-- URL : https://mayankdevil.github.io/website-2/
+- URL : https://mayankdevil.github.io/TradeFair/
 
-- Clone : https://github.com/MayankDevil/website-2.git
+- Clone : https://github.com/MayankDevil/TradeFair.git
 
-- Download : https://github.com/MayankDevil/website-2/archive/refs/heads/main.zip
+- Download : https://github.com/MayankDevil/TradeFair/archive/refs/heads/main.zip
 
 ---
 
