@@ -57,6 +57,25 @@ body
 {
     background: var(--lred);
 }
+/* scroll up button */
+#scrl_up
+{
+    display: none;
+    position: fixed;
+    bottom: 3vh;
+    right: 3vw;
+    font-size: 2rem;
+    padding: 5px 10px;
+    color:var(--light);
+    background: var(--red);
+    border-radius: 5px;
+    opacity: 0.6;
+}
+#scrl_up:hover
+{
+    opacity: 1;
+    box-shadow: 1px 1px 5px var(--dark);
+}
 /*
     comman css -----------------------------------
 */
@@ -153,13 +172,14 @@ p
 }
 #header #nav #menu a:hover
 {
+    font-weight: 500;
     color:var(--red);
     border-color: var(--lred);
 }
 #header #nav #menu a:last-child
 {
     margin-left: 1rem;
-    border: 1px solid var(--red);
+    border: 3px inset var(--red);
 }
 /*
     home css ------------------------------------
@@ -369,6 +389,121 @@ p
 {
     background: var(--lred);
 }
+/*
+    login css -------------------------------------
+*/
+#login
+{
+    width: 400px;
+    margin: 5vh auto;
+    margin-right: 5px;
+    padding: 1rem;
+    background: var(--black);
+    border-radius: 10px;
+}
+form a
+{
+    display: inline-block;
+    padding: 0.5rem;
+    color: var(--dred);
+}
+legend
+{
+    padding: 1rem;
+    font-size:2rem;
+    color:var(--white);
+}
+.fld
+{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    color:var(--light);
+    background: transparent;
+    border-bottom: 1px solid var(--yellow);
+}
+.box
+{
+    margin: 1rem;
+}
+#caption
+{
+    padding: 0 1rem;
+    font-size:1.5rem;
+    color: var(--lred);
+    background: transparent;
+}
+.cap_lbl
+{
+    font-size: 1rem var(--text);
+    color: var(--white);
+}
+.input_group
+{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form_btn
+{
+    font-weight: bold;
+    color:var(--light);
+    background: var(--red);
+}
+.form_btn:nth-child(2n)
+{
+    background: transparent;
+}
+.form_btn:nth-child(2n):hover
+{
+    transition: all linear 0.5s;
+    background: var(--lred);
+    border-color: none;
+}
+/*
+    registration css ----------------------------
+*/
+#registration
+{
+    padding: 5vh 0;
+}
+#clientForm
+{
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+    background: var(--black);
+    border-radius: 5px;
+}
+#clientForm select
+{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    color:var(--light);
+    background: transparent;
+    border-bottom: 1px solid var(--yellow);
+}
+#registration :is(.copy,#develope) 
+{
+    margin-top: 3rem;
+    font-size: 1rem;
+    text-align: center;
+}
+#registration #develope
+{
+    margin-top: 1rem;
+}
+#registration #develope a
+{
+    color:var(--dred);
+}
+#registration #client_btn
+{
+    margin-top: 1rem;
+}
+
 /*
     THE END =====================================
 */
