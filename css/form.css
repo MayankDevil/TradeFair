@@ -1,0 +1,129 @@
+/*
+-   website 2 "trade fair"
+-   CopyRight https://github.com/MayankDevil
+-   Designed | Developed By Mayank
+-   CSS : ./css/form.css
+*/
+/*
+    =============
+    | LOGIN CSS |
+    =============
+*/
+#login_form
+{
+    width: 400px;
+    margin: 5vh auto;
+    margin-right: 5px;
+    padding: 1rem;
+    background: var(--black);
+    border-radius: 10px;
+}
+#login_form > div
+{
+    margin: 1rem;
+}
+#login_form div > div
+{
+    color:var(--light);
+}
+#login_form a
+{
+    display: inline-block;
+    padding: 0.5rem;
+    color: var(--dred);
+}
+legend
+{
+    padding: 1rem;
+    font-size:2rem;
+    color:var(--white);
+}
+.fld
+{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    color:var(--light);
+    background: transparent;
+    border-bottom: 1px solid var(--yellow);
+}
+#caption
+{
+    padding: 0 1rem;
+    font-size:1.5rem;
+    color: var(--lred);
+    background: transparent;
+}
+.cap_lbl
+{
+    font-size: 1rem var(--text);
+    color: var(--white);
+}
+.btn_group
+{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form_btn
+{
+    font-weight: bold;
+    color:var(--light);
+    background: var(--red);
+}
+.form_btn:nth-child(2n)
+{
+    background: transparent;
+}
+.form_btn:nth-child(2n):hover
+{
+    transition: all linear 0.5s;
+    background: var(--lred);
+    border-color: none;
+}
+/*
+    ==============
+    | SIGNIN CSS |
+    ==============
+*/
+#signin 
+{
+    padding: 5vh 0;
+}
+.center
+{
+    padding: 2rem;
+    text-align: center;
+}
+#signin_form
+{
+    width: 600px;
+    margin: auto;
+    padding: 1rem;
+    background: var(--black);
+}
+#signin_form > div
+{
+    padding: 1rem;
+}
+#signin_form .form_btn
+{
+    width: 100%;
+    border-radius: none !important;
+}
+#form_detail
+{
+    width: 500px;
+    margin:3rem auto 3rem 0;
+    background: var(--light);
+}
+#back_btn
+{
+    display: inline-block;
+    padding: 2rem;
+}
+#back_btn:hover
+{
+    color:var(--dark);
+}
