@@ -1,0 +1,258 @@
+/*
+-   website-2 "trade fair"
+-   CopyRight https://github.com/MayankDevil
+-   Designed | Developed By Mayank
+-   HTML : ./css/responsive.css
+*/
+
+/*
+    1200PX SCREEN CSS --------------------------
+*/
+@media (max-width: 1200px)
+{
+    /* comman */
+    .heading,
+    #home,
+    #objective,
+    #about,
+    #event
+    {
+        padding: 5vh 1rem;
+    }
+    #header .container
+    {
+        padding: 0 2rem;
+    }
+}
+/*
+    992PX SCREEN CSS ---------------------------
+*/
+@media (max-width: 992px)
+{
+    /* home */
+    #home .container .row
+    {
+        grid-template-columns: 1fr;
+    }
+    #home .container .row .col:first-child
+    {
+        margin-bottom: 5vh;
+    }
+    #home .container .row .col:first-child
+    {
+        margin: 1rem auto;
+    }
+    /* objective */
+    #objective .container
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    /* about */
+    #about .container .row
+    {
+        grid-template-columns: 1fr;
+    }
+    /* event */
+    #event .container
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    /* footer */
+    #footer #bottom
+    {
+        padding: 0.5rem 3rem;
+    }
+    #footer #top
+    {
+        display: grid;
+        justify-content: center;
+    }
+    #footer #top #develope
+    {
+        text-align: center;
+    }
+    /* login */
+    #login
+    {
+        margin:3rem auto;
+    }
+}
+/*
+    768PX SCREEN CSS ---------------------------
+*/
+@media (max-width: 768px)
+{
+    /* header */
+    #header #menu_btn
+    {
+        display: block !important;
+    }
+    #menu
+    {
+        position: absolute;
+        left: 0%;
+        top: -200vh;
+        z-index: 10;
+        display: grid;
+        grid-gap: 1rem;
+        width: 100%;
+        margin: auto;
+        padding: 2rem 1rem;
+        background: var(--white);
+    }
+    #menu a:hover
+    {
+        font-weight: bold !important;
+        color:var(--white) !important;
+        background: var(--lred);        
+    }
+    #menu a:last-child
+    {
+        text-align: center;       
+    }
+}
+/*
+    576PX SCREEN CSS -----------------------------
+*/
+@media (max-width: 576px)
+{
+    /* comman */
+    h1
+    {
+        font-size: 1.5rem;
+    }
+    /* home */
+    .display-5
+    {
+        font-size: 3rem;
+    }
+    #home .container .row .col:first-child
+    {
+        padding: 1rem;
+    }
+    /* objective */
+    .object .number
+    {
+        color: var(--black);
+        background: var(--light);
+    }
+    .object h3
+    {
+        padding: 1rem 0;
+        text-align: center;
+        font-weight: normal;
+        color:var(--black);
+    }
+    .obj_pic
+    {
+        opacity: 0.8;
+        width: 100px;
+        border-radius: 2rem 0;
+        background: var(--lred);
+    }
+    /* about */
+    #about .row .col:last-child
+    {
+        padding: 1rem;
+    }
+    /* event */
+    #event .container
+    {
+        grid-template-columns: 1fr;
+    }
+    #event
+    {
+        padding: 0;
+    }
+    /* footer */
+    
+    #footer #condition
+    {
+        line-height: 2rem;
+        text-align: center;
+    }
+    #footer #condition a
+    {
+        padding: 0 5px;
+    }
+    #footer #bottom
+    {
+        display: grid;
+        justify-content: center;
+    }
+    #footer #bottom .copy
+    {
+        margin: 1rem auto;
+    }
+    /* registration */
+    #registration
+    {
+        padding: 0 0 3rem 0;
+    }
+    #clientForm
+    {
+        margin: 1rem;
+    }
+    #login .box:last-child,
+    #clientForm:first-child div[class='input_group']
+    {
+        display: block;
+        padding: 0;
+    }
+    /* login */
+    #login a
+    {
+        margin-top:1rem;
+    }
+    #login .box
+    {
+        margin:1rem auto;
+    }
+}
+/*
+    375PX SCREEN CSS --------------------------------
+*/
+@media (max-width: 375px)
+{
+    /* home */
+    #home .container .row .col:first-child
+    {
+        padding: 1rem 0;
+    }
+    /* objective */
+    #objective .container
+    {
+        grid-template-columns: 1fr;
+    }
+    /* login */
+    #login
+    {
+        margin: -0.5rem;
+    }
+    /* registration */
+    form legend
+    {
+        padding: 1rem 0;
+        font-size: 2rem;
+    }
+    #registration
+    {
+        padding: 0 0 3rem 0;
+    }
+    #clientForm
+    {
+        margin: 0;
+        border-radius: 0;
+    }
+    #clientForm .box
+    {
+        margin:1rem auto;
+    }
+    #client_btn
+    {
+        margin-top: 2rem !important;
+    }
+}
+/*
+    =================================================
+*/
